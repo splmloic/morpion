@@ -1,6 +1,7 @@
 class Show
 
     def show_board(board)
+       # system("clear")
      puts "=".white * 13
      3.times do |x|
        print "| ".white

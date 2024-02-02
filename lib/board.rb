@@ -69,7 +69,7 @@ class Board
     def victory?(player, status)
       #TO DO : une méthode qui vérifie le plateau et indique s'il y a un vainqueur ou match nul
       if (@a1.case_value == @a2.case_value) && (@a2.case_value == @a3.case_value) && (@a1.case_value != "_".white)
-        puts "#{player.name} a gagné!" + "\u{1f60e}"
+        puts "#{player.name} a gagné!" + "\u{1f60e}" 
         return true
       elsif (@b1.case_value == @b2.case_value) && (@b2.case_value == @b3.case_value) && (@b1.case_value != "_".white)
         puts "#{player.name} a gagné!" + "\u{1f60e}"
